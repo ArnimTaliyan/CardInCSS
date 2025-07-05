@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@400..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+    background: url("https://i.redd.it/n8agw6z2smyb1.gif");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    font-family: 'Baloo Bhai 2', sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.card {
+    max-width: 300px;
+    background-color: whitesmoke;
+    padding: 1rem;
+    border: 1px solid grey;
+    box-shadow: 0 0 20px rgba(0, 255, 255, 0.3);
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.15);
+}
+
+.cardheader img {
+    width: 100%;
+    height: auto;
+    border-radius: 15px;
+}
+
+.tags {
+    display: flex;
+    gap: 0.5rem;
+}
+
+.tag {
+    background-color: #f3f4f6;
+    color: #4b5563;
+    font-size: 0.75rem;
+    padding: 4px 10px;
+    border-radius: 999px;
+    border: 1px solid lightgrey;
+    margin-left: 1rem;
+}
+
+.tag1 {
+    background-color: #f3f4f6;
+    color: #4b5563;
+    font-size: 0.75rem;
+    padding: 4px 10px;
+    border-radius: 999px;
+    border: 1px solid lightgrey;
+}
+
+.card h1 {
+    font-size: 1.5rem;
+    text-align: left;
+    margin-top: -.05rem;
+    margin-left: -1rem;
+    padding: 0 10px;
+}
+
+.card p {
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #333;
+    text-align: left;
+    margin-top: -1.5rem;
+    margin-bottom: 1rem;
+    margin-left: -1rem;
+    padding: 0 10px;
+}
+
+.read {
+    align-self: center;
+    background-color: lightblue;
+    border: 2px solid lightblue;
+    border-radius: 25px;
+    margin-top: -1rem;
+    padding: 0.5rem 1.5rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.read p {
+    margin: 0;
+    font-weight: 800;
+    color: #1755da;
+}
+
+.read:hover {
+  background-color: #1d4ed8;
+  border-color: #1d4ed8;
+}
+
+.read:hover p,
+.read:hover p a,
+.read:hover p a:visited {
+  color: white;
+}
+
+.read p,
+.read p a,
+.read p a:visited {
+  color: #1755da;
+}
+
+.read p a {
+    text-decoration: none;
+}
