@@ -18,3 +18,11 @@ A responsive developer profile card built with HTML and CSS. Showcasing clean UI
 
 ## 📌 Author
 **Arnim Taliyan**
+
+## 🎨 Credits
+
+- **Background GIF**:  
+  ["Coding" by Pixel Jeff](https://www.reddit.com/r/Cyberpunk/comments/17orhba/coding_by_pixel_jeff/)  
+  Posted on [Reddit - r/Cyberpunk](https://www.reddit.com/r/Cyberpunk)  
+  > All rights belong to the original artist. Used here for educational and non-commercial purposes only.  
+  > If you're the creator and would like it removed or properly attributed, please contact me.
